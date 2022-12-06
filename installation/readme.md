@@ -1,8 +1,8 @@
-PreReq;
+--PreReq;
 
-Ubuntu 18
+--Ubuntu 18
 
-Install CUDA/CUDNN
+--Install CUDA/CUDNN
 (https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=18.04&target_type=deb_local)
 
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
@@ -19,6 +19,6 @@ sudo apt-get update
 
 sudo apt-get -y install cuda*
 
-Install zlib
+--Install zlib
 
 sudo apt-get install zlib1g
