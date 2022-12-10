@@ -22,3 +22,23 @@ sudo apt-get -y install cuda*
 --Install zlib
 
 sudo apt-get install zlib1g
+
+--install latest GPU drivers.
+--install cudnn
+https://developer.nvidia.com/rdp/cudnn-archive
+Download from here and open with installer.
+
+https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#installcuda
+
+Install docker
+install the pre-reqs
+
+sudo apt-get install curl apt-transport-https ca-certificates software-properties-common
+
+Add repos
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+
